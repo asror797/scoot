@@ -1,0 +1,9 @@
+@mixin btns {
+  font-family: 'Space mono',sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 13.5px 39px;
+  background-color: $yellow;
+  border: 2.5px solid $yellow;
+}
