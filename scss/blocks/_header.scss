@@ -1,118 +1,81 @@
-.header{
+.header {
   width: 100%;
   .header__itm {
     width: 100%;
-    .header__itm__nav {
-      width: 100%;
-      padding: 22px 0;
+    padding: 23px 165px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .header__itm--hamburg {
+      display: none;
+    }
+    .header__itm--menu {
+      list-style: none;
       display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      .hamburg {
-        display: none;
-      }
-      .nav__menu {
-        list-style: none;
-        display: flex;
-        margin-left: 59px;
-        li {
-          a {
-            padding: 5px 9px;
-            text-decoration: none;
-            text-transform: capitalize;
-            font-weight: bold;
-            font-size: 15px;
-            color: $dim-grey;
-            font-family: 'Space mono',sans-serif;  
-            &:hover {
-              color: $yellow;
-            }
+      margin-left: 57px;
+      li {
+        padding: 5px 7px;
+        a {
+          text-decoration: none;
+          font-family: 'Space mono',sans-serif;
+          color: $dim-grey ;
+          text-transform: capitalize;
+          font-size: 15px;
+          transition: 0.3s ease;
+          &:hover {
+            color: $yellow;
           }
-        }
-      }
-      .btn {
-        margin-left: auto;
-        transition: 0.5s ease;
-        @include btns;
-        &:hover {
-          color: $yellow;
-          background-color: white;
         }
       }
     }
-    .hero {
-      width: 100%;
-      padding: 175px 35px;
-      background-image: linear-gradient(left,#2f3b59b7, #2f3b59b7),url(./../image/bitmap.png);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      .hero__left {
-        max-width: 555px;
-        .hero__left--heading {
-          font-family: 'Space Mono',monospace;
-          font-size: 56px;
-          color: #ffffff;
-          font-weight: 900;
-          margin-bottom: 19px;
-        }
-        .hero__left--title {
-          padding-left: 75px;
-          font-size: 17px;
-          line-height: 1.7em;
-          color: #ffffff;
-          margin-bottom: 95px;
-          display: flex;
-          align-items: center;
-          position: relative;
-          &::before {
-            content: " ";
-            display: inline-block;
-            position: absolute;
-            left: -31%;
-            width: 203px;
-            height: 17px;
-            margin-right: 25px;
-            background-image: url("./../image/line1.svg");
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            
-          }
-
-          &::after {
-            content: " ";
-            display: inline-block;
-            position: absolute;
-            top: 45px;
-            right: -85%;
-            width: 497px;
-            height: 138px;
-            margin-right: 25px;
-            background-image: url("./../image/line2.svg");
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            
-          }
-        }
-        .btn {
-          @include btns;
-        }
+    .header__itm--btn {
+      margin-left: auto;
+      @include btns;
+      transition: 0.3s ease;
+      &:hover {
+        background-color: white;
+        color: $yellow;
       }
     }
   }
 }
 
-@media only scrren and (max-width:768px) {
+/* tablet */ 
+@media only screen and (max-width:768px) {
   .header {
     width: 100%;
     .container {
-      max-width:768px;
+      max-width: 768px;
       margin: 0 auto;
-      padding: 0 39px;
+      .header__itm {
+        padding: 0 39px;
+      }
+    }
+  }
+}
+
+/* phone */ 
+@media only screen and (max-width:375px) {
+  .header {
+    width: 100%;
+    .container {
+      max-width: 375px;
+      margin: 0 auto;
       .header__itm {
         width: 100%;
+        padding: 23px 31px;
+        .header__itm--hamburg {
+          display: block;
+        }
+        .header__itm__logo {
+          margin: 0 auto;
+        }
+        .header__itm--menu {
+          display: none;
+        }
+        .header__itm--btn {
+          display: none;
+        }
       }
     }
   }
