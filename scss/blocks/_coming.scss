@@ -1,0 +1,422 @@
+.coming__wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: 200px;
+}
+.coming__title{
+width: 445px;
+font-weight: 700;
+font-size: 45px;
+line-height: 48px;
+color: $color-black;
+margin-bottom: 24px;
+}
+.coming__text{
+  width: 445px;
+  font-family: 'Lexend Deca';
+  font-size: 15px;
+  line-height: 25px;
+ color: $color-text;
+ margin-bottom: 40px;
+}
+.coming__img--responsive{
+  display: none;
+}
+.main__btn{
+  @include btn-mix;
+  padding: 14px 44px;
+}
+.main__btn:hover{
+ @include main__btn-hover
+}
+.coming__wrapper-right{
+  margin-right: auto;
+  position: relative;
+  z-index: -5;
+}
+.coming__section{
+  background-image: url(.././image/coming__arrow__img.png),
+  url(.././image/empty__img.png) ;
+  background-repeat: no-repeat;
+  background-position: calc(50% - 660px) 0,calc(50% - 790px) 0px;
+  
+}
+
+
+@include breakpoint-down(950px){
+  .coming__wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;
+  }
+  .coming__wrapper-left{
+    margin-top: -65px;
+  }
+  .coming__title{
+  width: 345px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  color: $color-black;
+  margin-bottom: 15px;
+  }
+  .coming__text{
+    width: 420px;
+    font-family: 'Lexend Deca';
+    font-size: 12px;
+    line-height: 25px;
+   color: $color-text;
+   margin-bottom: 30px;
+  }
+  .main__btn{
+    @include btn-mix;
+    padding: 14px 44px;
+  }
+  .main__btn:hover{
+   @include main__btn-hover
+  }
+  .coming__wrapper-right{
+    margin-left: auto;
+  }
+  .coming__img--responsive{
+    display: none;
+  }
+  .coming__img{
+    position: relative;
+    z-index: -11;
+    width: 385px;
+    height: 385px;
+  }
+  .coming__section{
+    background-image: url(.././image/coming__arrow__img.png),
+    url(.././image/empty__img.png) ;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 350px) 240px,calc(50% - 790px) 0px;
+    background-size: 720px 120px , 385px 385px;
+    
+  }
+  
+}
+@include breakpoint-down(870px){
+  .coming__wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;
+  }
+  .coming__wrapper-left{
+    margin-top: -65px;
+  }
+  .coming__title{
+  width: 329px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: $color-black;
+  margin-bottom: 15px;
+  }
+  .coming__text{
+    width: 348px;
+    font-family: 'Lexend Deca';
+    font-size: 10px;
+    line-height: 20px;
+   color: $color-text;
+   margin-bottom: 30px;
+  }
+  .main__btn{
+    @include btn-mix;
+    padding: 14px 44px;
+  }
+  .main__btn:hover{
+   @include main__btn-hover
+  }
+  .coming__wrapper-right{
+    margin-left: auto;
+  }
+  
+  .coming__img{
+    position: relative;
+    z-index: -11;
+    width: 350px;
+    height: 350px;
+  }
+  .coming__section{
+    background-image: url(.././image/coming__arrow__img.png),
+    none;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 350px) 200px,calc(50% - 790px) 0px;
+    background-size: 720px 120px , 385px 385px;
+    
+  }
+  
+}
+@include breakpoint-down(770px){
+  .coming__wrapper{
+    display: block;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;
+  }
+  .coming__wrapper-left{
+    margin-top: 0px;
+
+  }
+  .coming__title{
+  width: 457px;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 46px;
+  color: $color-black;
+  margin-bottom: 15px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  }
+  .coming__text{
+    width: 573px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    line-height: 25px;
+   color: $color-text;
+   margin-bottom: 40px;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+  }
+  .main__btn{
+    @include btn-mix;
+    padding: 14px 44px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main__btn:hover{
+   @include main__btn-hover
+  }
+  .coming__wrapper-right{
+    margin-left: auto;
+  }
+  .coming__img--responsive{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .coming__img{
+    display: none;
+  }
+  .coming__section{
+    background-image: url(.././image/coming__arrow__img.png),
+    none;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 390px) 110px;
+    background-size: 720px 120px ;
+    
+  }
+  
+}
+@include breakpoint-down(590px){
+  .coming__wrapper{
+    display: block;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;
+  }
+  .coming__wrapper-left{
+    margin-top: 0px;
+
+  }
+  .coming__title{
+  width: 395px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: $color-black;
+  margin-bottom: 15px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  }
+  .coming__text{
+    width: 400px;
+    font-family: 'Lexend Deca';
+    font-size: 13px;
+    line-height: 20px;
+   color: $color-text;
+   margin-bottom: 20px;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+  }
+  .main__btn{
+    @include btn-mix;
+    padding: 14px 44px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main__btn:hover{
+   @include main__btn-hover
+  }
+  .coming__wrapper-right{
+    margin-left: auto;
+  }
+  .coming__img--responsive{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .coming__img{
+    display: none;
+  }
+  .coming__section{
+    background-image: url(.././image/coming__arrow__img.png),
+    none;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 390px) 110px;
+    background-size: 720px 120px ;
+    
+  }
+  
+}
+@include breakpoint-down(430px){
+  .coming__wrapper{
+    display: block;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;
+  }
+  .coming__wrapper-left{
+    margin-top: 0px;
+
+  }
+  .coming__title{
+  width: 311px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: $color-black;
+  margin-bottom: 15px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  }
+  .coming__text{
+    width: 311px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    line-height: 20px;
+   color: $color-text;
+   margin-bottom: 20px;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+  }
+  .main__btn{
+    @include btn-mix;
+    padding: 14px 44px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main__btn:hover{
+   @include main__btn-hover
+  }
+  .coming__wrapper-right{
+    margin-left: auto;
+  }
+  .coming__img--responsive{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 311px;
+    height: 311px;
+    position: relative;
+    z-index: -5;
+  }
+  .coming__img{
+    display: none;
+  }
+  .coming__section{
+    background-image: url(.././image/coming__arrow__img.png),
+    none;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 235px) 110px;
+    background-size: 450px 120px ;
+    
+  }
+  
+}
+@include breakpoint-down(330px){
+  .coming__wrapper{
+    display: block;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;
+  }
+  .coming__wrapper-left{
+    margin-top: 0px;
+
+  }
+  .coming__title{
+  width: 300px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: $color-black;
+  margin-bottom: 15px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  }
+  .coming__text{
+    width: 300px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    line-height: 20px;
+   color: $color-text;
+   margin-bottom: 20px;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+  }
+  .main__btn{
+    @include btn-mix;
+    padding: 14px 44px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main__btn:hover{
+   @include main__btn-hover
+  }
+  .coming__wrapper-right{
+    margin-left: auto;
+  }
+  .coming__img--responsive{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 311px;
+    height: 311px;
+    position: relative;
+    z-index: -5;
+  }
+  .coming__img{
+    display: none;
+  }
+  .coming__section{
+    background-image: url(.././image/coming__arrow__img.png),
+    none;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 235px) 110px;
+    background-size: 450px 120px ;
+    
+  }
+  
+}

@@ -1,0 +1,28 @@
+@mixin list-mix {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+@mixin link-mix {
+  text-decoration: none;
+}
+@mixin btn-mix {
+  background-color: $color-primary;
+  border: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+@mixin main__btn-hover {
+  padding: 11px 41px;
+  border: 3px #FCB72B solid;
+  background-color: #FFFFFF;
+  color: #FCB72B;
+}
+@mixin breakpoint-down ($screen-width) {
+  @media only screen and (max-width:$screen-width) {
+    @content
+  }
+}

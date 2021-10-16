@@ -1,0 +1,158 @@
+.last__section{
+  background-image: url(.././image/black__section.png);
+  background-repeat: no-repeat;
+  padding-top: 102px;
+  padding-bottom: 102px;
+  background-position: center , center ;
+  background-size: cover;
+  width: 100%;
+  margin-top: -200px;
+}
+.last__wrapper{
+  display: flex;
+  align-items: center;
+ 
+}
+.last__title{
+  margin: 0;
+  width: 415px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 48px;
+  color: #FFFFFF;
+ }
+.last__right{
+  margin-left: auto;
+}
+.last__right-link ~ .last__right-link{
+  margin-left: 18px;
+}
+
+@include breakpoint-down(950px){
+  .last__section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-position: center ;
+    background-size: cover;
+  }
+  .last__wrapper{
+    display: flex;
+    align-items: center;
+   
+  }
+  .last__title{
+    margin: 0;
+  width: 370px;
+    font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+   }
+  .last__right{
+    margin-left: auto;
+  }
+  .last__right-link ~ .last__right-link{
+    margin-left: 15px;
+  }
+  .last__right__img{
+    width: 139px;
+    height: 45px;
+    object-fit: cover;
+  }
+}
+@include breakpoint-down(770px){
+  .last__wrapper{
+    display: block;
+    text-align: center;
+  }
+  .last__title{
+    text-align: center;
+    margin: auto;
+  width: 500px;
+    font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+   }
+   .last__right-link ~ .last__right-link{
+    margin-left: 12px;
+  }
+   .apple__img{
+    width: 114px;
+    height: 40px;
+    object-fit: cover;
+  }
+  .google__img{
+    width: 130px;
+    height: 40px;
+  }
+}
+@include breakpoint-down(550px){
+  .last__wrapper{
+    display: block;
+    text-align: center;
+  }
+  .last__title{
+    text-align: center;
+    margin: auto;
+  width: 370px;
+    font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+   }
+   .last__right-link ~ .last__right-link{
+    margin-left: 12px;
+  }
+   .apple__img{
+    width: 114px;
+    height: 40px;
+    object-fit: cover;
+  }
+  .google__img{
+    width: 130px;
+    height: 40px;
+  }
+}
+@include breakpoint-down(420px){
+  .last__wrapper{
+    display: block;
+    text-align: center;
+  }
+  .last__title{
+    text-align: center;
+    margin: auto;
+  width: 311px;
+    font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+   }
+   .last__right-link ~ .last__right-link{
+    margin-left: 12px;
+  }
+  
+}
+@include breakpoint-down(330px){
+  .last__wrapper{
+    display: block;
+    text-align: center;
+  }
+  .last__title{
+    text-align: center;
+    margin: auto;
+  width: 280px;
+    font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+   }
+   .last__right-link ~ .last__right-link{
+    margin-left: 12px;
+  }
+  
+}

@@ -1,1 +1,0 @@
-#Bu yerda fontlar saqlanadi

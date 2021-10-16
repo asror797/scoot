@@ -1,0 +1,420 @@
+.zero__wrapper{
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 329px;
+}
+.zero__title{
+width: 445px;
+font-weight: 700;
+font-size: 45px;
+line-height: 48px;
+color: $color-black;
+margin-bottom: 24px;
+}
+.zero__text{
+  width: 445px;
+  font-family: 'Lexend Deca';
+  font-size: 15px;
+  line-height: 25px;
+ color: $color-text;
+ margin-bottom: 40px;
+}
+.main__btn{
+  @include btn-mix;
+  padding: 14px 44px;
+}
+.main__btn:hover{
+ @include main__btn-hover
+}
+.zero__wrapper-right{
+  margin-left: auto;
+}
+.zero__img{
+  position: relative;
+  z-index: -5;
+}
+.zero__img--responsive{
+  display: none;
+}
+
+
+.zero__section{
+  background-image: url(.././image/easy-arrow.png),
+  url(.././image/empty__img.png) ;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 340px) 300px,calc(50% + 790px) 0px;
+}
+@include breakpoint-down(950px){
+  .zero__wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;
+  }
+  .zero__wrapper-left{
+    margin-top: -65px;
+  }
+  .zero__title{
+  width: 345px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  color: $color-black;
+  margin-bottom: 15px;
+  }
+  .zero__text{
+    width: 420px;
+    font-family: 'Lexend Deca';
+    font-size: 12px;
+    line-height: 25px;
+   color: $color-text;
+   margin-bottom: 30px;
+  }
+  .main__btn{
+    @include btn-mix;
+    padding: 14px 44px;
+  }
+  .main__btn:hover{
+   @include main__btn-hover
+  }
+  .zero__wrapper-right{
+    margin-left: auto;
+  }
+  .zero__img--responsive{
+    display: none;
+  }
+  .zero__img{
+    position: relative;
+    z-index: -11;
+    width: 385px;
+    height: 385px;
+  }
+  .zero__section{
+    background-image: url(.././image/easy-arrow.png),
+    url(.././image/empty__img.png) ;
+    background-repeat: no-repeat;
+    background-position: calc(50% + 520px) 100px,calc(50% + 790px) 0px;
+    background-size: 720px 120px , 385px 385px;
+    
+  }
+  
+}
+@include breakpoint-down(870px){
+  .zero__wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;
+  }
+  .zero__wrapper-left{
+    margin-top: -65px;
+  }
+  .zero__title{
+  width: 329px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: $color-black;
+  margin-bottom: 15px;
+  }
+  .zero__text{
+    width: 348px;
+    font-family: 'Lexend Deca';
+    font-size: 10px;
+    line-height: 20px;
+   color: $color-text;
+   margin-bottom: 30px;
+  }
+  .main__btn{
+    @include btn-mix;
+    padding: 14px 44px;
+  }
+  .main__btn:hover{
+   @include main__btn-hover
+  }
+  .zero__wrapper-right{
+    margin-left: auto;
+  }
+  .zero__img--responsive{
+    display: none;
+  }
+  .zeo__img{
+    position: relative;
+    z-index: -11;
+    width: 350px;
+    height: 350px;
+  }
+  .zero__section{
+    background-image: url(.././image/easy-arrow.png),
+    url(.././image/empty__img.png) ;
+    background-repeat: no-repeat;
+    background-position: calc(50% + 430px) 100px,calc(50% + 790px) 0px;
+    background-size: 600px 120px , 385px 385px;
+    
+  }
+}
+@include breakpoint-down(770px){
+  .zero__wrapper{
+    display: block;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;
+  }
+  .zero__wrapper-left{
+    margin-top: 0px;
+
+  }
+  .zero__title{
+  width: 457px;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 46px;
+  color: $color-black;
+  margin-bottom: 15px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  }
+  .zero__text{
+    width: 573px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    line-height: 25px;
+   color: $color-text;
+   margin-bottom: 40px;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+  }
+  .main__btn{
+    @include btn-mix;
+    padding: 14px 44px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main__btn:hover{
+   @include main__btn-hover
+  }
+  .zero__wrapper-right{
+    margin-left: auto;
+  }
+  .zero__img--responsive{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .zero__img{
+    display: none;
+  }
+  .zero__section{
+    background-image: url(.././image/easy-arrow.png),
+    url(.././image/empty__img.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 0px) 320px,calc(50% + 790px) 0px;
+    background-size: 500px 80px ,445px 445px ;
+  }
+  
+}
+@include breakpoint-down(590px){
+  .zero__wrapper{
+    display: block;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;
+  }
+  .zero__wrapper-left{
+    margin-top: 0px;
+
+  }
+  .zero__title{
+  width: 395px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: $color-black;
+  margin-bottom: 15px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  }
+  .zero__text{
+    width: 400px;
+    font-family: 'Lexend Deca';
+    font-size: 13px;
+    line-height: 20px;
+   color: $color-text;
+   margin-bottom: 20px;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+  }
+  .main__btn{
+    @include btn-mix;
+    padding: 14px 44px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main__btn:hover{
+   @include main__btn-hover
+  }
+  .zero__wrapper-right{
+    margin-left: auto;
+  }
+  .zero__img--responsive{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .zero__img{
+    display: none;
+  }
+  .zero__section{
+    background-image: url(.././image/easy-arrow.png),
+    url(.././image/empty__img.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 0px) 320px,calc(50% + 790px) 0px;
+    background-size: 500px 80px ,445px 445px ;
+  }
+  
+}
+@include breakpoint-down(430px){
+  .zero__wrapper{
+    display: block;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;
+  }
+  .zero__wrapper-left{
+    margin-top: 0px;
+
+  }
+  .zero__title{
+  width: 311px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: $color-black;
+  margin-bottom: 15px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  }
+  .zero__text{
+    width: 311px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    line-height: 20px;
+   color: $color-text;
+   margin-bottom: 20px;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+  }
+  .main__btn{
+    @include btn-mix;
+    padding: 14px 44px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main__btn:hover{
+   @include main__btn-hover
+  }
+  .zero__wrapper-right{
+    margin-left: auto;
+  }
+  .zero__img--responsive{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 311px;
+    height: 311px;
+    position: relative;
+    z-index: -5;
+  }
+  .zero__img{
+    display: none;
+  }
+  .zero__section{
+    background-image: url(.././image/easy-arrow.png),
+   none;
+    background-repeat: no-repeat;
+    background-position: calc(50% + 180px) 140px;
+    background-size: 700px 130px;
+  }
+  
+}
+@include breakpoint-down(330px){
+  .zero__wrapper{
+    display: block;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;
+  }
+  .zero__wrapper-left{
+    margin-top: 0px;
+
+  }
+  .zero__title{
+  width: 300px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: $color-black;
+  margin-bottom: 15px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  }
+  .zero__text{
+    width: 300px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    line-height: 20px;
+   color: $color-text;
+   margin-bottom: 20px;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+  }
+  .main__btn{
+    @include btn-mix;
+    padding: 14px 44px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main__btn:hover{
+   @include main__btn-hover
+  }
+  .zero__wrapper-right{
+    margin-left: auto;
+  }
+  .zero__img--responsive{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 311px;
+    height: 311px;
+    position: relative;
+    z-index: -5;
+  }
+  .zero__img{
+    display: none;
+  }
+  .zero__section{
+    background-image: url(.././image/easy-arrow.png),
+   none;
+    background-repeat: no-repeat;
+    background-position: calc(50% + 180px) 140px;
+    background-size: 700px 130px;
+  }
+  
+}
